@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+h1 {font-size: 16px;
+	 font-family:"Avenir Light";
+    text-align: center;
+     padding:40px 0px 20px 0px}
+
+h2 {font-size: 20px;
+font-family: 'Noto Sans JP', sans-serif;
+   margin-right: auto;
+	margin-left: auto;
+ letter-spacing: 0.08em;
+ width: 55%;
+ text-align:left;
+	margin-top: 90px}
+
+ .sennzai {width : 20%}
+
+.e {font-size: 12px;
+font-family: 'Noto Sans JP', sans-serif;
+   margin-right: auto;
+	margin-left: auto;
+ letter-spacing: 0.08em;
+ width: 55%;
+ text-align:left;
+line-height: 2;
+margin-top: 60px}
+
