@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>OAuth Callback - KVE</title></head>
+<body>
+<h1>Authorization Complete</h1>
+<p>You can close this window. Copy the authorization code from the URL bar.</p>
+<script>
+const params = new URLSearchParams(window.location.search);
+const code = params.get('code');
+if (code) {
+  document.body.innerHTML += '<p><strong>Authorization code:</strong> <code>' + code + '</code></p>';
+}
+</script>
+</body>
+</html>
